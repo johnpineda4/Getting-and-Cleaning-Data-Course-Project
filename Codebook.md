@@ -59,7 +59,7 @@ The following files are available for the train and test data. Their description
 
 Final Project Output file : 
 ======
-'secondtidydataset.txt' contain the [1] subjectid, [2] activityid, [3] activityname or Activity Description, the measurements on the mean and standard deviation for each measurement, namely: 
+'secondtidydataset.txt' contain the [1] subjectid, [2] activityid, [3] activityname or Activity Description, the measurements on the mean and standard deviation for each measurement, namely:                    
  [4] "timebodyaccelerometer-mean()-x"                    
  [5] "timebodyaccelerometer-mean()-y"                    
  [6] "timebodyaccelerometer-mean()-z"                    
@@ -132,8 +132,8 @@ Final Project Output file :
 [73] "frequencybodyaccelerometermagnitude-meanfreq()"    
 [74] "frequencybodyaccelerometerjerkmagnitude-mean()"    
 [75] "frequencybodyaccelerometerjerkmagnitude-std()"     
-[76] "frequencybodyaccelerometerjerkmagnitude-meanfreq()"
-[77] "frequencybodygyroscopemagnitude-mean()"            
+[76] "frequencybodyaccelerometerjerkmagnitude-meanfreq()"                    
+ [77] "frequencybodygyroscopemagnitude-mean()"            
 [78] "frequencybodygyroscopemagnitude-std()"             
 [79] "frequencybodygyroscopemagnitude-meanfreq()"        
 [80] "frequencybodygyroscopejerkmagnitude-mean()"        
