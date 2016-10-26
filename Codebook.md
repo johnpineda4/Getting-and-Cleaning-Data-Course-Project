@@ -1,8 +1,7 @@
 # Getting and Cleaning Data Course Project 
 
 
-This course project is built upon the Codebook provided in:
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+This course project is built upon the Codebook provided in: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 ===================================================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
@@ -11,8 +10,7 @@ Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) 
 1 - Smartlab - Non-Linear Complex Systems Laboratory
 DITEN - Universit?  degli Studi di Genova, Genoa (I-16145), Italy. 
 2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
-Universitat Polit?cnica de Catalunya (BarcelonaTech). Vilanova i la Geltr? (08800), Spain
-activityrecognition '@' smartlab.ws 
+Universitat Polit?cnica de Catalunya (BarcelonaTech). Vilanova i la Geltr? (08800), Spain activityrecognition '@' smartlab.ws 
 ===================================================================================================
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
@@ -57,6 +55,91 @@ The following files are available for the train and test data. Their description
       'features.txt', 'activity_labels.txt'
 
 - 'secondtidydataset.txt': Second tidy dataset for the average of each variable for each activity and each subject.
+
+Final Project Output file : 'secondtidydataset.txt' contain the [1] subjectid, [2] activityid, [3] activityname or Activity Description, the measurements on the mean and standard deviation for each measurement, namely: 
+ [4] "timebodyaccelerometer-mean()-x"                    
+ [5] "timebodyaccelerometer-mean()-y"                    
+ [6] "timebodyaccelerometer-mean()-z"                    
+ [7] "timebodyaccelerometer-std()-x"                     
+ [8] "timebodyaccelerometer-std()-y"                     
+ [9] "timebodyaccelerometer-std()-z"                     
+[10] "timegravityaccelerometer-mean()-x"                 
+[11] "timegravityaccelerometer-mean()-y"                 
+[12] "timegravityaccelerometer-mean()-z"                 
+[13] "timegravityaccelerometer-std()-x"                  
+[14] "timegravityaccelerometer-std()-y"                  
+[15] "timegravityaccelerometer-std()-z"                  
+[16] "timebodyaccelerometerjerk-mean()-x"                
+[17] "timebodyaccelerometerjerk-mean()-y"                
+[18] "timebodyaccelerometerjerk-mean()-z"                
+[19] "timebodyaccelerometerjerk-std()-x"                 
+[20] "timebodyaccelerometerjerk-std()-y"                 
+[21] "timebodyaccelerometerjerk-std()-z"                 
+[22] "timebodygyroscope-mean()-x"                        
+[23] "timebodygyroscope-mean()-y"                        
+[24] "timebodygyroscope-mean()-z"                        
+[25] "timebodygyroscope-std()-x"                         
+[26] "timebodygyroscope-std()-y"                         
+[27] "timebodygyroscope-std()-z"                         
+[28] "timebodygyroscopejerk-mean()-x"                    
+[29] "timebodygyroscopejerk-mean()-y"                    
+[30] "timebodygyroscopejerk-mean()-z"                    
+[31] "timebodygyroscopejerk-std()-x"                     
+[32] "timebodygyroscopejerk-std()-y"                     
+[33] "timebodygyroscopejerk-std()-z"                     
+[34] "timebodyaccelerometermagnitude-mean()"             
+[35] "timebodyaccelerometermagnitude-std()"              
+[36] "timegravityaccelerometermagnitude-mean()"          
+[37] "timegravityaccelerometermagnitude-std()"           
+[38] "timebodyaccelerometerjerkmagnitude-mean()"         
+[39] "timebodyaccelerometerjerkmagnitude-std()"          
+[40] "timebodygyroscopemagnitude-mean()"                 
+[41] "timebodygyroscopemagnitude-std()"                  
+[42] "timebodygyroscopejerkmagnitude-mean()"             
+[43] "timebodygyroscopejerkmagnitude-std()"              
+[44] "frequencybodyaccelerometer-mean()-x"               
+[45] "frequencybodyaccelerometer-mean()-y"               
+[46] "frequencybodyaccelerometer-mean()-z"               
+[47] "frequencybodyaccelerometer-std()-x"                
+[48] "frequencybodyaccelerometer-std()-y"                
+[49] "frequencybodyaccelerometer-std()-z"                
+[50] "frequencybodyaccelerometer-meanfreq()-x"           
+[51] "frequencybodyaccelerometer-meanfreq()-y"           
+[52] "frequencybodyaccelerometer-meanfreq()-z"           
+[53] "frequencybodyaccelerometerjerk-mean()-x"           
+[54] "frequencybodyaccelerometerjerk-mean()-y"           
+[55] "frequencybodyaccelerometerjerk-mean()-z"           
+[56] "frequencybodyaccelerometerjerk-std()-x"            
+[57] "frequencybodyaccelerometerjerk-std()-y"            
+[58] "frequencybodyaccelerometerjerk-std()-z"            
+[59] "frequencybodyaccelerometerjerk-meanfreq()-x"       
+[60] "frequencybodyaccelerometerjerk-meanfreq()-y"       
+[61] "frequencybodyaccelerometerjerk-meanfreq()-z"       
+[62] "frequencybodygyroscope-mean()-x"                   
+[63] "frequencybodygyroscope-mean()-y"                   
+[64] "frequencybodygyroscope-mean()-z"                   
+[65] "frequencybodygyroscope-std()-x"                    
+[66] "frequencybodygyroscope-std()-y"                    
+[67] "frequencybodygyroscope-std()-z"                    
+[68] "frequencybodygyroscope-meanfreq()-x"               
+[69] "frequencybodygyroscope-meanfreq()-y"               
+[70] "frequencybodygyroscope-meanfreq()-z"               
+[71] "frequencybodyaccelerometermagnitude-mean()"        
+[72] "frequencybodyaccelerometermagnitude-std()"         
+[73] "frequencybodyaccelerometermagnitude-meanfreq()"    
+[74] "frequencybodyaccelerometerjerkmagnitude-mean()"    
+[75] "frequencybodyaccelerometerjerkmagnitude-std()"     
+[76] "frequencybodyaccelerometerjerkmagnitude-meanfreq()"
+[77] "frequencybodygyroscopemagnitude-mean()"            
+[78] "frequencybodygyroscopemagnitude-std()"             
+[79] "frequencybodygyroscopemagnitude-meanfreq()"        
+[80] "frequencybodygyroscopejerkmagnitude-mean()"        
+[81] "frequencybodygyroscopejerkmagnitude-std()"         
+[82] "frequencybodygyroscopejerkmagnitude-meanfreq()"    
+[83] "angle(tbodyaccelerometermean,gravity)"             
+[84] "angle(tbodyaccelerometerjerkmean),gravitymean)"    
+[85] "angle(tbodygyroscopemean,gravitymean)" 
+
 
 Notes: 
 ======
