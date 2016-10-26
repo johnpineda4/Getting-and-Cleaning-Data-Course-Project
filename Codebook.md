@@ -1,7 +1,7 @@
 # Getting and Cleaning Data Course Project 
 
 
-This course project is built upon the Codebook provided in: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+## This course project is built upon the Codebook provided in: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
 Human Activity Recognition Using Smartphones Dataset
@@ -57,7 +57,9 @@ The following files are available for the train and test data. Their description
 
 - 'secondtidydataset.txt': Second tidy dataset for the average of each variable for each activity and each subject.
 
-Final Project Output file : 'secondtidydataset.txt' contain the [1] subjectid, [2] activityid, [3] activityname or Activity Description, the measurements on the mean and standard deviation for each measurement, namely: 
+Final Project Output file : 
+======
+'secondtidydataset.txt' contain the [1] subjectid, [2] activityid, [3] activityname or Activity Description, the measurements on the mean and standard deviation for each measurement, namely: 
  [4] "timebodyaccelerometer-mean()-x"                    
  [5] "timebodyaccelerometer-mean()-y"                    
  [6] "timebodyaccelerometer-mean()-z"                    
